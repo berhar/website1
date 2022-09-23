@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formularios</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <font color="blue">
+    <h1>Pedido de Informação</h1><br>
+    <form method="post">
+        <h2>Dados Pessoais</h2>
+        <label for="Nome">Nome: </label><input type="text" name="nome" id="nome" required>
+        <label for="apelido">Apelido: </label><input type="text" name="apelido" id="apelido" ><br><br>
+        <label for="d_nasc">Data de Nascimento: </label>
+        <input type="date" name="nascimento" id="d_nasc"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" ><br><br>
+       <h3> <p><strong>Género:</strong></p></h3>
+        <label for="Feminino">Feminino</label>
+        <input type="radio" name="genero" id="fem" value="Feminino"><br>
+        <label for="masc">Masculino:</label>
+        <input type="radio" name="genero" id="masc" value="Masculine"><br>
+        <label for="masc">Outro:</label>
+        <input type="radio" name="genero" id="Outro" value="Outro"><br><br>
+        <input type="reset" name="Apagar">
+        <input type="submit" name="" value="Submeter">
+    </font>
+    </form>
+</body>
+</html>
+  
